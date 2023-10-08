@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/fork.png" />
+    <title>Pruebas Comedor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="cube-folding">
+        <span class="leaf1"></span>
+        <span class="leaf2"></span>
+        <span class="leaf3"></span>
+        <span class="leaf4"></span>
+      </div>
+    </div>
+    <section class="loginField">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="main d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="img/logoComedor.png" />
+              <h1>Comedores Alfalfa</h1>
+              <h2 class="mb-4">Acceso Familiar</h2>
+              <form id="form">
+                <label for="username">Usuario:</label><br />
+                <input type="text" id="username" name="username" /><br />
+                <label for="password">Contraseña:</label><br />
+                <input type="password" id="password" name="password" />
+                <br /><button
+                  type="submit"
+                  class="accederButton login mt-5"
+                  onclick="test()"
+                  href=""
+                >
+                  Acceder
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="loader.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

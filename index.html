@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/fork.png" />
+    <title>Pruebas Comedor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="ChooseField">
+      <img src="img/logoComedor.png" />
+
+      <div class="center">
+        <div class="container">
+          <div class="setting-description">
+            <div class="setting-description-text" style="margin-left: 15px">
+              <h10>Escoge un centro escolar</h10>
+            </div>
+          </div>
+          <div class="wrapper-dropdown" id="dropdown">
+            <span class="selected-display" id="destination"
+              >Elige una opción</span
+            >
+            <svg
+              class="arrow"
+              id="drp-arrow"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="transition-all ml-auto rotate-180"
+            >
+              <path
+                d="M7 14.5l5-5 5 5"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <ul class="dropdown">
+              <a href="./login.html"><li class="item">Centro Alfalfa</li></a>
+              <li class="item">Centro 2</li>
+              <li class="item">Centro 3</li>
+              <li class="item">Centro 4</li>
+            </ul>
+          </div>
+    </section>
+    <script src="choose.js"></script>
+  </body>
+</html>
